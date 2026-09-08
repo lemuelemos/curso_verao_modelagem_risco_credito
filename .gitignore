@@ -1,0 +1,23 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+.venv/
+.uv-cache/
+.ipynb_checkpoints/
+
+# Quarto
+/.quarto/
+/_freeze/
+/_site/
+**/*.quarto_ipynb
+
+# Artefatos temporários gerados pelo Quarto
+**/*_cache/
+**/*_files/
+
+# Arquivos locais do sistema e dos editores
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/

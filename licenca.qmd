@@ -1,0 +1,13 @@
+---
+title: "Licença de uso"
+---
+
+<center>![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)</center>
+
+<br> Estes materiais são disponibilizados com a licença Creative Commons Atribuição-Compartilha Igual (CC BY-SA), ou seja, você pode compartilhar e adaptar este material, porém deve atribuir os créditos para as pessoas autoras, adicionando um link para o material original, e o seu material também deve ter este mesmo tipo de licença.
+
+Saiba mais em: [Creative Commons](https://br.creativecommons.net/licencas/)
+
+A estrutura deste site foi construída a partir do material do curso [Relatórios reprodutíveis com R](https://lemuelemos.github.io/2026-curso-de-verao-ime-usp-relatorios/), também oferecido no Programa de Verão do IME-USP.
+
+O conteúdo do curso tem como principal referência a obra de Abraham Laredo Sicsú, **Credit scoring: desenvolvimento, implantação e acompanhamento com Python** (2. ed., Blucher, 2026), e as demais referências listadas nas [informações gerais](informacoes-gerais.qmd).

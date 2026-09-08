@@ -1,0 +1,28 @@
+---
+title: "Aula 5 — Implantação e monitoramento"
+---
+
+## Objetivos
+
+- compreender a utilização do modelo na decisão de crédito;
+- integrar o modelo à política de crédito;
+- acompanhar a população e o desempenho do modelo;
+- calcular e interpretar o Population Stability Index (PSI);
+- reconhecer a importância da documentação, da governança e das limitações dos modelos.
+
+## Conteúdo
+
+- utilização do modelo na decisão de crédito;
+- integração entre modelo e política de crédito;
+- acompanhamento da população e do desempenho;
+- Population Stability Index — PSI;
+- revisão, recalibração e substituição de modelos;
+- documentação, governança e limitações dos modelos.
+
+## Materiais
+
+*Os slides, códigos e exercícios desta aula serão disponibilizados aqui.*
+
+## Etapa do modelo didático
+
+Monitoramento do modelo desenvolvido, cálculo do PSI e discussão sobre governança e limitações. Orientações finais para o [trabalho final](../trabalho_final.qmd).

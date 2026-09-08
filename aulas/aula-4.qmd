@@ -1,0 +1,28 @@
+---
+title: "Aula 4 — Construção e avaliação do scorecard"
+---
+
+## Objetivos
+
+- transformar o modelo em uma escala de pontos (scorecard);
+- definir faixas de risco;
+- avaliar o desempenho com matriz de confusão, curva ROC, AUC, Gini e KS;
+- compreender calibração, estabilidade e validação temporal;
+- definir pontos de corte.
+
+## Conteúdo
+
+- transformação do modelo em uma escala de pontos;
+- definição de faixas de risco;
+- matriz de confusão, sensibilidade e especificidade;
+- curva ROC, AUC, Gini e estatística KS;
+- calibração, estabilidade e validação temporal;
+- definição de pontos de corte.
+
+## Materiais
+
+*Os slides, códigos e exercícios desta aula serão disponibilizados aqui.*
+
+## Etapa do modelo didático
+
+Construção do scorecard, avaliação do desempenho e classificação dos clientes em faixas de risco.

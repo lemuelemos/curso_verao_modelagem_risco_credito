@@ -1,0 +1,28 @@
+---
+title: "Aula 3 — Desenvolvimento do modelo"
+---
+
+## Objetivos
+
+- compreender a regressão logística como modelo de classificação binária;
+- interpretar probabilidades, odds e coeficientes;
+- aplicar técnicas de categorização de variáveis;
+- calcular e interpretar Weight of Evidence (WOE) e Information Value (IV);
+- selecionar variáveis e construir o modelo.
+
+## Conteúdo
+
+- classificação binária e regressão logística;
+- interpretação de probabilidades, odds e coeficientes;
+- categorização de variáveis;
+- Weight of Evidence — WOE;
+- Information Value — IV;
+- seleção de variáveis e construção do modelo.
+
+## Materiais
+
+*Os slides, códigos e exercícios desta aula serão disponibilizados aqui.*
+
+## Etapa do modelo didático
+
+Categorização das variáveis com WOE/IV e estimação da regressão logística.

@@ -1,0 +1,133 @@
+---
+title: "Informações gerais"
+---
+
+## Sobre o curso
+
+**Introdução ao Credit Scoring** é um curso do Programa de Verão do IME-USP. A proposta é apresentar os fundamentos conceituais e práticos do credit scoring, capacitando os participantes a compreender as etapas de construção, avaliação e utilização de modelos de classificação de risco de crédito.
+
+## Para quem é o curso?
+
+O curso é direcionado a um público misto: estudantes de graduação e pós-graduação e profissionais das áreas de crédito, risco, economia, administração, contabilidade, estatística, finanças e ciência de dados.
+
+Não é necessária experiência prévia com modelos de credit scoring. Noções básicas de estatística e familiaridade com Python ajudam a aproveitar melhor as demonstrações práticas, mas os códigos serão previamente estruturados e explicados em aula.
+
+## Carga horária e formato
+
+O curso tem carga horária de **15 horas**, integralmente **online**, distribuídas em **cinco aulas síncronas de três horas**, realizadas por plataforma de videoconferência com compartilhamento de tela e materiais digitais.
+
+As aulas combinam exposição conceitual, demonstrações em Python, exercícios e discussão de casos, permitindo abordar de forma progressiva os principais conteúdos de credit scoring.
+
+::: {.callout-important title="Requisitos técnicos e presença"}
+Os participantes deverão dispor de computador com acesso à internet, microfone e webcam em funcionamento. **O uso da webcam será obrigatório durante as aulas** e será utilizado como critério para registro de presença e assiduidade.
+:::
+
+## Objetivo geral
+
+Apresentar os fundamentos conceituais e práticos do credit scoring, capacitando os participantes a compreender as etapas de construção, avaliação e utilização de modelos de classificação de risco de crédito.
+
+## Objetivos específicos
+
+- compreender a função do credit scoring na gestão do risco de crédito;
+- estruturar um problema de classificação de risco;
+- preparar e analisar dados para o desenvolvimento de modelos;
+- compreender a aplicação da regressão logística;
+- conhecer técnicas de categorização, Weight of Evidence e Information Value;
+- avaliar o desempenho e a estabilidade de um modelo;
+- interpretar probabilidades, escores, faixas de risco e pontos de corte;
+- reconhecer a importância da implantação, do monitoramento e da governança.
+
+## Programa
+
+### Aula 1 — Fundamentos do credit scoring
+
+- risco de crédito e processo de concessão;
+- modelos julgamentais e modelos quantitativos;
+- application scoring e behavioral scoring;
+- probabilidade de inadimplência, escore e decisão de crédito.
+
+### Aula 2 — Planejamento e preparação dos dados
+
+- definição da população e da unidade de análise;
+- definição do evento de inadimplência;
+- janelas de observação e desempenho;
+- amostragem, qualidade dos dados e análise exploratória;
+- divisão das amostras de desenvolvimento, validação e teste.
+
+### Aula 3 — Desenvolvimento do modelo
+
+- classificação binária e regressão logística;
+- interpretação de probabilidades, odds e coeficientes;
+- categorização de variáveis;
+- Weight of Evidence — WOE;
+- Information Value — IV;
+- seleção de variáveis e construção do modelo.
+
+### Aula 4 — Construção e avaliação do scorecard
+
+- transformação do modelo em uma escala de pontos;
+- definição de faixas de risco;
+- matriz de confusão, sensibilidade e especificidade;
+- curva ROC, AUC, Gini e estatística KS;
+- calibração, estabilidade e validação temporal;
+- definição de pontos de corte.
+
+### Aula 5 — Implantação e monitoramento
+
+- utilização do modelo na decisão de crédito;
+- integração entre modelo e política de crédito;
+- acompanhamento da população e do desempenho;
+- Population Stability Index — PSI;
+- revisão, recalibração e substituição de modelos;
+- documentação, governança e limitações dos modelos.
+
+## Metodologia
+
+O curso combinará aulas expositivas, discussão de casos e atividades práticas. Os participantes acompanharão as etapas de desenvolvimento de um modelo introdutório de credit scoring, utilizando uma base de dados didática e códigos previamente estruturados em Python.
+
+A aplicação prática será utilizada para demonstrar:
+
+- preparação e exploração dos dados;
+- categorização das variáveis;
+- estimação de uma regressão logística;
+- construção de um scorecard;
+- avaliação do desempenho;
+- classificação dos clientes em faixas de risco.
+
+## Recursos de instrução
+
+Serão utilizados apresentações, referências bibliográficas, base de dados didática, exercícios e códigos em Python desenvolvidos para o curso. Todo o material será organizado e disponibilizado nesta página, permitindo aos participantes acompanhar as aulas, revisar os conteúdos e reproduzir as atividades práticas.
+
+## Comunicação
+
+A interação ocorrerá durante os cinco encontros síncronos e, ao longo de todo o período do curso, o docente estará disponível para esclarecimento de dúvidas por meio dos canais oficiais da Universidade e de outros meios de comunicação por mensagens utilizados com a turma.
+
+## Avaliação
+
+O rendimento será acompanhado por meio da participação nas aulas e nas atividades propostas, bem como pelo acompanhamento das etapas de desenvolvimento do modelo didático. A avaliação ocorre por meio de um [trabalho final](trabalho_final.qmd) construído ao longo das cinco aulas.
+
+## Bibliografia básica
+
+- SICSÚ, Abraham Laredo. **Credit scoring: desenvolvimento, implantação e acompanhamento com Python**. 2. ed. Blucher, 2026.
+
+  A obra será a principal referência do curso por apresentar de maneira integrada as etapas de planejamento, desenvolvimento, validação, implantação e monitoramento de modelos, além de incorporar aplicações de machine learning e códigos em Python.
+
+- SIDDIQI, Naeem. **Intelligent Credit Scoring: Building and Implementing Better Credit Risk Scorecards**. 2. ed. Wiley, 2017.
+
+- THOMAS, Lyn C.; CROOK, Jonathan N.; EDELMAN, David B. **Credit Scoring and Its Applications**. 2. ed. SIAM, 2017.
+
+## Bibliografia complementar
+
+- HAND, David J.; HENLEY, William E. Statistical Classification Methods in Consumer Credit Scoring: a Review. *Journal of the Royal Statistical Society: Series A*, v. 160, n. 3, p. 523–541, 1997.
+
+- LOUZADA, Francisco; ARA, Anderson; FERNANDES, Guilherme B. Classification Methods Applied to Credit Scoring: a Systematic Review and Overall Comparison. *Expert Systems with Applications*, v. 42, n. 1, p. 117–131, 2015.
+
+- SICSÚ, Abraham Laredo; SAMARTINI, André; BARTH, Nelson Lerner. **Técnicas de machine learning**. Blucher, 2023.
+
+## Preparação
+
+Antes do primeiro encontro:
+
+1. conclua as [instalações necessárias](materiais/instrucoes-de-instalacao.qmd);
+2. confirme que consegue executar um notebook Python;
+3. teste microfone e webcam na plataforma de videoconferência.

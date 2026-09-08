@@ -1,0 +1,43 @@
+---
+title: "Perguntas frequentes"
+---
+
+1.  **O curso será online ou presencial?**
+
+O curso será oferecido de forma integralmente online, com aulas síncronas por videoconferência.
+
+2.  **Apenas estudantes da USP podem participar do curso?**
+
+As inscrições serão abertas para todas as pessoas interessadas.
+
+3.  **Como posso me inscrever?**
+
+A inscrição é realizada pelo IME-USP. Acompanhe prazos e orientações na [página do Programa de Verão](https://www.ime.usp.br/verao/index.php/turmas/apresentacao.php).
+
+4.  **O curso é gratuito?**
+
+Não. Consulte valores e condições na [página do Programa de Verão](https://www.ime.usp.br/verao/index.php/turmas/apresentacao.php).
+
+5.  **As aulas serão gravadas?**
+
+Sim.
+
+6.  **Preciso saber programar em Python?**
+
+Noções básicas ajudam a aproveitar melhor as demonstrações, mas os códigos serão previamente estruturados e explicados em aula. O foco do curso é o desenvolvimento de modelos de credit scoring, não uma introdução completa à linguagem.
+
+7.  **Preciso saber estatística?**
+
+É recomendável conhecer noções básicas de probabilidade e estatística. Os conceitos necessários — como regressão logística, WOE e IV — serão apresentados ao longo do curso.
+
+8.  **Preciso ter uma base de dados própria?**
+
+Não. O curso utilizará uma base de dados didática, disponibilizada na página do curso junto com os códigos em Python.
+
+9.  **A webcam é obrigatória?**
+
+Sim. O uso da webcam será obrigatório durante as aulas e será utilizado como critério para registro de presença e assiduidade.
+
+10. **Como recebo o certificado?**
+
+É necessário cumprir a frequência mínima informada pelo programa e obter aprovação no trabalho final.

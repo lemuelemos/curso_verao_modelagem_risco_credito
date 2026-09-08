@@ -1,0 +1,109 @@
+---
+title: "Instruções de instalação"
+---
+
+Antes do primeiro encontro, prepare o ambiente que usaremos nas demonstrações práticas. Todo o curso utiliza **Python**.
+
+## 1. Instale o uv
+
+O ambiente do curso é gerenciado com o [uv](https://docs.astral.sh/uv/), que instala o Python, cria um ambiente virtual isolado e instala todas as bibliotecas necessárias. **Não é necessário instalar Python separadamente.**
+
+No Windows, abra o PowerShell e execute:
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+No macOS ou Linux, abra o terminal e execute:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Feche e abra novamente o terminal. Confirme a instalação:
+
+```bash
+uv --version
+```
+
+## 2. Instale um editor
+
+Recomendamos uma destas opções gratuitas:
+
+- **[VS Code](https://code.visualstudio.com/)** com as extensões [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) e [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter);
+- **[Positron](https://positron.posit.co/)**, que oferece suporte integrado a Python, notebooks, console e visualização de dados.
+
+## 3. Baixe o material do curso
+
+Se você tiver o Git instalado, clone o repositório e entre na pasta:
+
+```bash
+git clone https://github.com/lemuelemos/curso_verao_modelagem_risco_credito.git
+cd curso_verao_modelagem_risco_credito
+```
+
+Você também pode baixar o arquivo `.zip` pelo botão **Code > Download ZIP** na página do GitHub e extrair seu conteúdo.
+
+## 4. Crie o ambiente e instale as bibliotecas
+
+Na pasta do curso, execute:
+
+```bash
+uv python install
+uv venv
+uv pip sync requirements.txt
+```
+
+Esses comandos instalam a versão de Python definida no projeto, criam o ambiente `.venv` e sincronizam as versões registradas no `requirements.txt`.
+
+## 5. Selecione o ambiente no editor
+
+Abra a **pasta completa do curso** no editor escolhido.
+
+No VS Code, abra a Paleta de Comandos (`Ctrl+Shift+P` no Windows/Linux ou `Cmd+Shift+P` no macOS), execute **Python: Select Interpreter** e escolha o Python localizado em `.venv`.
+
+No Positron, o ambiente `.venv` costuma ser detectado automaticamente. Se ele não aparecer, execute **Interpreter: Discover All Interpreters** e selecione-o no seletor de interpretadores.
+
+## 6. Teste o ambiente
+
+Abra um notebook e execute:
+
+```python
+import pandas as pd
+import numpy as np
+import sklearn
+import statsmodels.api as sm
+
+print("Ambiente pronto!")
+```
+
+Se a mensagem aparecer sem erros, seu ambiente está preparado.
+
+Se preferir trabalhar diretamente no navegador, ative o ambiente e inicie o JupyterLab:
+
+::: {.panel-tabset}
+## Windows (PowerShell)
+
+```powershell
+.venv\Scripts\Activate.ps1
+jupyter lab
+```
+
+## macOS ou Linux
+
+```bash
+source .venv/bin/activate
+jupyter lab
+```
+:::
+
+::: {.callout-note title="Dúvidas na instalação?"}
+Se tiver qualquer dificuldade na preparação do ambiente, entre em contato pelos canais de comunicação da turma antes do primeiro encontro.
+:::
+
+## 7. Requisitos para as aulas
+
+Além do ambiente Python, você precisará de:
+
+- computador com acesso à internet;
+- microfone e **webcam em funcionamento** (o uso da webcam é obrigatório durante as aulas e é critério de registro de presença).

@@ -1,0 +1,45 @@
+---
+title: "Introdução ao Credit Scoring"
+subtitle: "Curso de Verão IME-USP"
+---
+
+## Do dado à decisão de crédito
+
+A avaliação do risco de crédito é uma atividade fundamental para instituições financeiras e demais organizações que concedem crédito. Os modelos de **credit scoring** sistematizam informações cadastrais, financeiras e comportamentais, produzindo medidas objetivas de risco que apoiam decisões de concessão, definição de limites, precificação e monitoramento de clientes.
+
+Este curso aproxima os fundamentos estatísticos do credit scoring de sua aplicação prática. Ao longo de cinco aulas, você acompanhará todas as etapas de desenvolvimento de um modelo: da definição do problema e preparação dos dados até a validação, implantação e acompanhamento — com demonstrações em **Python**.
+
+::: {.callout-tip title="Resultado esperado"}
+Ao final, você será capaz de compreender a lógica de funcionamento de um sistema de credit scoring, interpretar seus resultados e acompanhar o desenvolvimento de um modelo simples de classificação de risco, reconhecendo suas aplicações e limitações.
+:::
+
+## Trilha de aprendizagem
+
+1. **Fundamentos do credit scoring** — risco de crédito, modelos julgamentais e quantitativos, application e behavioral scoring.
+2. **Planejamento e preparação dos dados** — população, evento de inadimplência, janelas de observação e desempenho, amostragem.
+3. **Desenvolvimento do modelo** — regressão logística, categorização de variáveis, Weight of Evidence e Information Value.
+4. **Construção e avaliação do scorecard** — escala de pontos, faixas de risco, curva ROC, AUC, Gini, KS e pontos de corte.
+5. **Implantação e monitoramento** — política de crédito, PSI, recalibração, documentação e governança.
+
+## O que você vai praticar
+
+- estruturar um problema de classificação de risco;
+- preparar e explorar dados para o desenvolvimento de modelos;
+- categorizar variáveis com WOE e IV;
+- estimar e interpretar uma regressão logística;
+- construir um scorecard e definir faixas de risco;
+- avaliar desempenho, calibração e estabilidade de um modelo;
+- classificar clientes em faixas de risco e definir pontos de corte.
+
+## Comece por aqui
+
+1. Leia as [informações gerais](informacoes-gerais.qmd).
+2. Faça as [instalações do pré-curso](materiais/instrucoes-de-instalacao.qmd).
+3. Acesse a [Aula 1](aulas/aula-1.qmd).
+4. Consulte desde o início as [instruções do trabalho final](trabalho_final.qmd).
+
+## Abordagem
+
+O curso combina aulas expositivas, discussão de casos e atividades práticas. Os participantes acompanharão as etapas de desenvolvimento de um modelo introdutório de credit scoring, utilizando uma base de dados didática e códigos previamente estruturados em Python. O modelo é construído gradualmente ao longo das aulas, para evitar que toda a produção fique concentrada no último encontro.
+
+A principal referência do curso é a obra de **Abraham Laredo Sicsú**, *Credit scoring: desenvolvimento, implantação e acompanhamento com Python* (2. ed., Blucher, 2026), que organiza o desenvolvimento de sistemas de credit scoring a partir de uma visão integrada — do planejamento ao monitoramento — e incorpora técnicas de machine learning e aplicações em Python.

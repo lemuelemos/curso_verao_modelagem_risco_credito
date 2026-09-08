@@ -1,0 +1,106 @@
+---
+title: "Instruções de Trabalho Final"
+---
+
+**Objetivo:** Você deverá desenvolver e documentar um **modelo introdutório de credit scoring**, aplicando as etapas apresentadas ao longo do curso. O trabalho final tem como propósito consolidar os conhecimentos do curso, por meio da elaboração de um produto estruturado e reprodutível em **Python**.
+
+**Formato do trabalho:**
+Você deverá **escolher um dos formatos abaixo** para apresentar o resultado:
+
+- **Relatório técnico** — documento descrevendo o desenvolvimento do modelo, da preparação dos dados à avaliação, com interpretação dos resultados.
+- **Notebook comentado** — Jupyter Notebook combinando código, resultados e narrativa, organizado como um estudo completo.
+- **Apresentação em slides** — exposição sintética do desenvolvimento e dos resultados do modelo, voltada a um público gestor.
+
+A escolha do formato deve estar alinhada ao **objetivo do trabalho** e ao **público-alvo** que você deseja atingir.
+
+::: {.callout-tip title="Construa ao longo do curso"}
+Cada aula avança uma etapa do modelo didático. Acompanhar essas etapas evita concentrar toda a produção no último encontro.
+:::
+
+::: {.callout-warning title="Certificação"}
+O recebimento do certificado está vinculado à entrega e aprovação do trabalho final, além de frequência mínima de 75%. Lembre-se: o uso da webcam durante as aulas é critério para registro de presença.
+:::
+
+---
+
+## Etapas pré-código
+
+- Defina o escopo do seu trabalho:
+  - o objetivo do modelo (por exemplo, application scoring para concessão de crédito);
+  - o público-alvo do documento (técnico ou gerencial);
+  - o tipo de linguagem mais adequada.
+
+- Escolha a base de dados. Você pode:
+
+  - utilizar a **base de dados didática do curso**;
+  - utilizar uma base pública de crédito, como as disponíveis no [UCI Machine Learning Repository](https://archive.ics.uci.edu/) (por exemplo, *German Credit Data*) ou no [Kaggle](https://www.kaggle.com/);
+  - utilizar dados próprios, desde que possam ser compartilhados sem restrição de sigilo.
+
+---
+
+## Etapas do desenvolvimento
+
+O trabalho deve contemplar, no mínimo, as seguintes etapas:
+
+1. **Definição do problema** — população, unidade de análise e evento de inadimplência.
+2. **Preparação dos dados** — análise exploratória, tratamento de valores ausentes e divisão das amostras.
+3. **Categorização das variáveis** — com cálculo de Weight of Evidence (WOE) e Information Value (IV).
+4. **Estimação do modelo** — regressão logística, com interpretação dos coeficientes.
+5. **Avaliação do desempenho** — pelo menos duas métricas entre curva ROC/AUC, Gini, KS e matriz de confusão.
+6. **Scorecard e faixas de risco** — transformação em escala de pontos e classificação dos clientes em faixas de risco.
+
+Inclua obrigatoriamente:
+
+* texto interpretando os resultados de cada etapa (não apenas código e saídas);
+* pelo menos uma tabela e um gráfico gerados por código;
+* a indicação da fonte dos dados utilizados.
+
+---
+
+## Organização e entrega
+
+1) Organize o trabalho em um projeto com boas práticas de nomeação: sem espaços, caracteres especiais ou acentuação. O projeto deve chamar-se:
+`trabalho_credit_scoring_nome_sobrenome`
+Exemplo: `trabalho_credit_scoring_lemuel_lemos`
+
+2) Estruture as pastas do projeto:
+
+- Pasta `dados` para a base utilizada (ou instruções de download, se a base for muito grande).
+- Pasta `notebooks` ou `codigos` para os scripts e notebooks.
+- Arquivo `README` explicando o objetivo, os requisitos e como executar o projeto.
+
+3) Entrega — você pode:
+
+* Compactar a pasta do projeto em um arquivo `.zip` e enviar pela plataforma do curso;
+  **ou**
+* Compartilhar o link de um repositório no GitHub contendo o projeto.
+
+---
+
+## Rubrica de avaliação
+
+| Critério | O que será observado | Peso |
+|---|---|---:|
+| Definição do problema | população, evento de inadimplência e objetivo do modelo explícitos | 15% |
+| Preparação dos dados | análise exploratória, tratamento adequado e divisão das amostras | 20% |
+| Desenvolvimento do modelo | categorização com WOE/IV e regressão logística corretamente aplicadas e interpretadas | 20% |
+| Avaliação do desempenho | métricas adequadas, corretamente calculadas e interpretadas | 20% |
+| Comunicação | narrativa coerente, interpretação dos resultados e apresentação visual | 10% |
+| Organização e reprodutibilidade | caminhos relativos, dependências documentadas e execução em sessão limpa | 10% |
+| Documentação e entrega | README, fonte dos dados e instruções de execução funcionais | 5% |
+
+Para aprovação, o trabalho deve atingir pelo menos 60% da pontuação e não pode deixar de atender aos critérios de desenvolvimento do modelo e avaliação do desempenho.
+
+## Checklist antes da entrega
+
+- [ ] O objetivo do modelo e o evento de inadimplência estão definidos no documento.
+- [ ] A análise exploratória e o tratamento dos dados estão descritos.
+- [ ] As variáveis foram categorizadas com WOE e IV.
+- [ ] A regressão logística foi estimada e os coeficientes interpretados.
+- [ ] O desempenho foi avaliado com pelo menos duas métricas.
+- [ ] O scorecard e as faixas de risco foram apresentados.
+- [ ] Tabelas e gráficos são gerados pelo código e interpretados no texto.
+- [ ] Todos os caminhos são relativos e o projeto executa em uma sessão limpa.
+- [ ] O README explica requisitos e execução.
+- [ ] A fonte dos dados está indicada e os dados podem ser compartilhados.
+- [ ] Nenhuma senha, token ou informação sigilosa foi incluída.

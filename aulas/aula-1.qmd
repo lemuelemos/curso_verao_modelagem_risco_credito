@@ -1,0 +1,25 @@
+---
+title: "Aula 1 — Fundamentos do credit scoring"
+---
+
+## Objetivos
+
+- compreender a função do credit scoring na gestão do risco de crédito;
+- diferenciar modelos julgamentais e modelos quantitativos;
+- distinguir application scoring de behavioral scoring;
+- entender a relação entre probabilidade de inadimplência, escore e decisão de crédito.
+
+## Conteúdo
+
+- risco de crédito e processo de concessão;
+- modelos julgamentais e modelos quantitativos;
+- application scoring e behavioral scoring;
+- probabilidade de inadimplência, escore e decisão de crédito.
+
+## Materiais
+
+*Os slides, códigos e exercícios desta aula serão disponibilizados aqui.*
+
+## Etapa do modelo didático
+
+Apresentação da base de dados didática e do problema de classificação que será desenvolvido ao longo do curso.

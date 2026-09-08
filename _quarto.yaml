@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: _site
+  execute-dir: project
+  render:
+    - "*.qmd"
+    - "aulas/*.qmd"
+    - "materiais/instrucoes-de-instalacao.qmd"
+
+lang: pt-BR
+
+website:
+  page-navigation: true
+  title: "Introdução ao Credit Scoring"
+  site-url: "https://lemuelemos.github.io/curso_verao_modelagem_risco_credito/"
+  repo-url: "https://github.com/lemuelemos/curso_verao_modelagem_risco_credito"
+  repo-branch: main
+  repo-actions: [edit, issue]
+
+  page-footer:
+    right: "Site criado com [Quarto](https://quarto.org/)."
+    left: "Conteúdo sob licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br)."
+    background: "#E5F0F8"
+
+  sidebar:
+    logo: "https://www.ime.usp.br/verao/assets/images/logo_verao.png"
+    pinned: true
+    background: "#10273F"
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/lemuelemos/curso_verao_modelagem_risco_credito
+        text: "Repositório do curso"
+
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+      - section: "Sobre o curso"
+        contents:
+           - informacoes-gerais.qmd
+           - profs.qmd
+           - faq.qmd
+      - section: "Materiais"
+        contents:
+           - materiais/instrucoes-de-instalacao.qmd
+           - slides.qmd
+      - section: "Aulas"
+        contents:
+          - aulas/aula-1.qmd
+          - aulas/aula-2.qmd
+          - aulas/aula-3.qmd
+          - aulas/aula-4.qmd
+          - aulas/aula-5.qmd
+      - section: "Trabalho Final"
+        contents:
+          - trabalho_final.qmd
+      - licenca.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    link-external-newwindow: true
+    include-after-body: _includes/external-links.html
+    code-copy: true
+    code-overflow: wrap
+    toc: true

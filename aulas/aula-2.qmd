@@ -1,0 +1,26 @@
+---
+title: "Aula 2 — Planejamento e preparação dos dados"
+---
+
+## Objetivos
+
+- definir a população, a unidade de análise e o evento de inadimplência;
+- compreender as janelas de observação e desempenho;
+- avaliar a qualidade dos dados e conduzir a análise exploratória;
+- dividir as amostras de desenvolvimento, validação e teste.
+
+## Conteúdo
+
+- definição da população e da unidade de análise;
+- definição do evento de inadimplência;
+- janelas de observação e desempenho;
+- amostragem, qualidade dos dados e análise exploratória;
+- divisão das amostras de desenvolvimento, validação e teste.
+
+## Materiais
+
+*Os slides, códigos e exercícios desta aula serão disponibilizados aqui.*
+
+## Etapa do modelo didático
+
+Análise exploratória da base didática, tratamento dos dados e divisão das amostras.

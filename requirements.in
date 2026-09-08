@@ -1,0 +1,8 @@
+# Dependências diretas usadas nos notebooks e nas demonstrações do curso.
+ipykernel
+jupyterlab
+matplotlib
+numpy
+pandas
+scikit-learn
+statsmodels

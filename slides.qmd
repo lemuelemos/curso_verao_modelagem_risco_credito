@@ -1,0 +1,13 @@
+---
+title: "Slides"
+---
+
+Os slides de cada aula serão disponibilizados nesta página ao longo do curso.
+
+| Aula | Tema | Slides |
+|---|---|---|
+| 1 | Fundamentos do credit scoring | *em breve* |
+| 2 | Planejamento e preparação dos dados | *em breve* |
+| 3 | Desenvolvimento do modelo | *em breve* |
+| 4 | Construção e avaliação do scorecard | *em breve* |
+| 5 | Implantação e monitoramento | *em breve* |
