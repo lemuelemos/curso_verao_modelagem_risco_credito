@@ -1,6 +1,7 @@
 ---
 title: "Introdução ao Credit Scoring"
 subtitle: "Curso de Verão IME-USP"
+description: "Aprenda a desenvolver, validar e acompanhar modelos de classificação de risco de crédito com Python no Curso de Verão do IME-USP."
 ---
 
 ## Do dado à decisão de crédito

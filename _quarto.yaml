@@ -12,10 +12,17 @@ lang: pt-BR
 website:
   page-navigation: true
   title: "Introdução ao Credit Scoring"
-  site-url: "https://lemuelemos.github.io/curso_verao_modelagem_risco_credito/"
+  site-url: "https://lemuelemos.github.io/curso_verao_modelagem_risco_credito"
   repo-url: "https://github.com/lemuelemos/curso_verao_modelagem_risco_credito"
   repo-branch: main
   repo-actions: [edit, issue]
+
+  open-graph:
+    locale: pt_BR
+    image: "/assets/capa-credit-scoring.png"
+    image-alt: "Introdução ao Credit Scoring, curso do Programa de Verão do IME-USP"
+    image-width: 1200
+    image-height: 630
 
   page-footer:
     right: "Site criado com [Quarto](https://quarto.org/)."
