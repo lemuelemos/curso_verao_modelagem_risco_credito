@@ -437,6 +437,26 @@ blockquote {
   background: var(--cs-gold);
 }
 
+/* O Quarto troca a barra lateral pelo cabeçalho abaixo de lg (992 px). */
+@media (max-width: 991.98px) {
+  .quarto-secondary-nav > .container-fluid::before {
+    content: "";
+    flex: 0 0 3.25rem;
+    height: 1.8rem;
+    align-self: center;
+    background: url("assets/logo-verao-ime-usp.png") center / contain no-repeat;
+  }
+
+  .quarto-secondary-nav .quarto-page-breadcrumbs {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .sidebar-navigation .sidebar-logo-link {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
